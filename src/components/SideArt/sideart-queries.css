@@ -1,0 +1,43 @@
+@media (max-width: 100em) {
+  .line-right {
+    margin-right: 0;
+  }
+
+  .line-left {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 85em) {
+  .line-right {
+    margin-right: -3rem;
+  }
+
+  .line-left {
+    margin-left: 1rem;
+  }
+
+  .line-right p {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .line-right-top {
+    margin-bottom: 4rem;
+  }
+
+  .side-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .line-container {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .line-container {
+    display: none;
+  }
+}

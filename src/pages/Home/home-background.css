@@ -1,0 +1,53 @@
+.home-astro {
+  position: absolute;
+
+  animation: floating-astro 5s ease-in-out infinite;
+  height: 4rem;
+  bottom: 25rem;
+  left: 45rem;
+  filter: grayscale(0.9) opacity(0.6);
+  z-index: 2;
+}
+
+.home-satellite {
+  position: absolute;
+  animation: floating-satellite 11s ease-in-out infinite;
+  left: 45rem;
+  bottom: 35rem;
+  height: 11rem;
+  filter: grayscale(1) opacity(0.5);
+  z-index: 2;
+}
+
+.home-meteor {
+  position: absolute;
+  animation: meteor-strike 0.5s ease-in-out infinite;
+  right: 32rem;
+  top: 11rem;
+  height: 20rem;
+  filter: grayscale(0.85) opacity(0.65);
+  z-index: 2;
+}
+
+.home-planet {
+  position: absolute;
+  align-items: center;
+  top: -175rem;
+  left: 0;
+  filter: grayscale(0.5) blur(0.5rem) opacity(0.5) brightness(0.5);
+  width: 190rem;
+  z-index: 1;
+}
+
+.home-planet-glow {
+  position: absolute;
+  animation: planet-glowing 10s ease-in-out infinite;
+  width: 200rem;
+  height: 200rem;
+  padding-bottom: 105vw;
+  border-radius: 50%;
+  top: -190rem;
+  left: 0;
+  filter: blur(10rem);
+  background-color: #f1faee;
+}

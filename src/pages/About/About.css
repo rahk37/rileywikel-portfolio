@@ -1,0 +1,126 @@
+.about-container {
+  position: relative;
+  padding-top: 9.6rem;
+  padding-bottom: 6rem;
+  background: #1F1A38;
+  z-index: 1;
+}
+
+.about-grid {
+  column-gap: 9.6rem;
+}
+
+.about-container h1 {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.text-box {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.8);
+  background-color: #35314c;
+  padding: 3.6rem;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.4s;
+  z-index: 5;
+}
+
+.text-box:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.7);
+}
+
+.about-tert {
+  color: #f2fbf0;
+  font-size: 3.6rem;
+}
+
+.about-icon {
+  font-size: 12rem;
+  font-weight: 600;
+  color: #FAA275;
+}
+
+.about-tert,
+.about-icon {
+  text-align: center;
+}
+
+.about-content-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.about-img-box {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.about-img-box::before,
+.about-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 5%;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  transition: all 0.8s;
+}
+
+.about-img-box::before {
+  width: 70%;
+  padding-bottom: 70%;
+  background-color: #1f1a38;
+  z-index: -1;
+}
+
+.about-img-box:hover::before {
+  width: 66%;
+  padding-bottom: 66%;
+  background-color: #1f1a38;
+  z-index: -1;
+}
+
+.about-img-box::after {
+  width: 73%;
+  padding-bottom: 73%;
+  background-color: #FAA275;
+  z-index: -2;
+}
+
+.about-img-box:hover::after {
+  width: 69%;
+  padding-bottom: 69%;
+  background-color: #FAA275;
+  z-index: -2;
+}
+
+.about-img-hover {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50px;
+  background-color: rgb(250, 162, 117, 0.37);
+  z-index: 2;
+  transition: all 0.6s;
+}
+
+.about-img-hover:hover {
+  background-color: rgb(250, 162, 117, 0);
+}
+
+.about-img {
+  position: relative;
+  width: 40rem;
+  border-radius: 50px;
+  filter: grayscale(0.9);
+}
+
+.diff {
+  text-align: end;
+}

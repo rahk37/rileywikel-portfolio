@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap");
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+Normal Text 4.5, large Text 3 (18px)
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHTS
+Light: 300
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- LINE HEIGHTS
+Default: 1
+Small: 1.05
+Paragraph default: 1.6
+
+--- 02 COLORS
+- 10%: #FAA275
+- TINTS:
+- #fbab83
+- #fbb591
+- #fcbe9e
+- #fcc7ac
+- #fdd1ba
+- #fddac8
+- #fee3d6
+- #feece3
+- #fff6f1
+-SHADES:
+- #e19269
+- #c8825e
+- #af7152
+- #966146
+- #7d513b
+- #64412f
+- #4b3123
+- #322017
+- #19100c
+
+- 30%: #F1FAEE
+- TINTS:
+- #f2fbf0
+- #f4fbf1
+- #f5fcf3
+- #f7fcf5
+- #f8fdf7
+- #f9fdf8
+- #fbfefa
+- #fcfefc
+- #fefffd
+-SHADES:
+- #d9e1d6
+- #c1c8be
+- #a9afa7
+- #91968f
+- #797d77
+- #60645f
+- #484b47
+- #303230
+- #181918
+- 60%: #1F1A38
+
+- Accents: 
+#3DA5D9
+
+--- 05 SHADOWS
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER RADIUS
+Default: 
+9px
+11px
+
+--- 07 WHITESPACE
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #1f1a38;
+}
+
+body {
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #f1faee;
+  overflow-x: hidden;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgb(250, 162, 117, 0.5);
+}
+
+strong {
+  font-weight: 500;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 4.8rem;
+}
+
+.grid--1-cols {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #fbab83;
+  color: #181918;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  box-shadow: inset 0 0 0 3px #faa275;
+  color: #faa275;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #faa275;
+  color: #181918;
+}
+
+.header-main,
+.header-tert {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.header-main {
+  text-align: center;
+  font-size: 7.4rem;
+  line-height: 1.05;
+  margin-bottom: 5rem;
+  text-shadow: 0px 4px 4px #000;
+}
+
+.header-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.header-tert {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+
+.section-header-line {
+  height: 0.1rem;
+  width: 100%;
+  background-color: #faa275;
+  margin-bottom: 4.8rem;
+}
+
+.content-link:link,
+.content-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1.4;
+  color: #faa275;
+}
+
+.content-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: rgb(250, 162, 117, 0.85);
+  transition: width 0.3s;
+}
+
+.content-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 80em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 75em) {
+  .container {
+    padding: 0 4rem;
+  }
+
+  .header-tert {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 55em) {
+  .header-main {
+    font-size: 6.2rem;
+  }
+
+  .header-secondary {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .container {
+    padding: 0 3.2rem;
+  }
+
+  .header-tert {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .header-main {
+    font-size: 5.2rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.4rem;
+  }
+
+  .header-secondary { 
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 22em) {
+  .header-main {
+    font-size: 4.4rem;
+  }
+}

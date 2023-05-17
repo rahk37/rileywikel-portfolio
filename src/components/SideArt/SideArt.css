@@ -1,0 +1,53 @@
+.line-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+}
+
+.side-line {
+  height: 10rem;
+  width: 0.1rem;
+  background-color: #797d77;
+}
+
+.line-right {
+  right: 0;
+  margin-right: 5rem;
+}
+
+.line-left {
+  left: 0;
+  margin-left: 10rem;
+}
+
+.side-icon {
+  height: 4rem;
+  width: 4rem;
+  color: #797d77;
+  transition: all 0.3s;
+}
+
+.side-icon:hover {
+  color: #faa275;
+}
+
+.line-right p {
+  color: #797d77;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transform: rotate(90deg);
+  margin-bottom: 7rem;
+  transition: all 0.3s;
+}
+
+.line-right p:hover {
+  color: #faa275;
+}
+
+.line-right-top {
+  margin-bottom: 7rem;
+}

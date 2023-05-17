@@ -1,0 +1,329 @@
+@media (max-width: 80em) {
+  .project-content-wording p {
+    font-size: 1.6rem;
+  }
+
+  .project-technologies-container {
+    gap: 1rem;
+  }
+
+  .project-img {
+    width: 55rem;
+  }
+
+  .project-img-hover {
+    width: 55rem;
+  }
+
+  .rankem-hover {
+    height: 23.5rem;
+  }
+
+  .schedtool-hover {
+    height: 23rem;
+  }
+
+  .textbook-hover {
+    height: 25.4rem;
+  }
+
+  .pixelgram-hover {
+    height: 25.7rem;
+  }
+
+  .bus-hover {
+    height: 32.2rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .project-img {
+    width: 46rem;
+  }
+
+  .project-img-hover {
+    width: 46rem;
+  }
+
+  .rankem-hover {
+    height: 23.5rem;
+  }
+
+  .schedtool-hover {
+    height: 23rem;
+  }
+
+  .textbook-hover {
+    height: 25.4rem;
+  }
+
+  .pixelgram-hover {
+    height: 25.7rem;
+  }
+
+  .bus-hover {
+    height: 32.2rem;
+  }
+}
+
+@media (max-width: 60em) {
+  .project-content-wording {
+    padding: 3rem;
+  }
+
+  .project-content-wording p {
+    font-size: 1.4rem;
+   }
+
+   .project-technologies-container {
+    gap: 0.5rem;
+  }
+
+  .project-technology {
+    font-size: 1rem;
+  }
+
+  .project-img {
+    width: 41rem;
+  }
+
+  .project-img-hover {
+    width: 41rem;
+  }
+
+  .rankem-hover {
+    height: 23.5rem;
+  }
+
+  .schedtool-hover {
+    height: 23rem;
+  }
+
+  .textbook-hover {
+    height: 25.4rem;
+  }
+
+  .pixelgram-hover {
+    height: 25.7rem;
+  }
+
+  .bus-hover {
+    height: 32.2rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .project-content-wording p {
+    font-size: 1.2rem;
+  }
+
+  .project-technology {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .project-img {
+    width: 30rem;
+  }
+
+  .project-img-hover {
+    width: 30rem;
+  }
+
+  .rankem-hover {
+    height: 14rem;
+  }
+
+  .schedtool-hover {
+    height: 13.7rem;
+  }
+
+  .textbook-hover {
+    height: 15.2rem;
+  }
+
+  .pixelgram-hover {
+    height: 15.5rem;
+  }
+
+  .bus-hover {
+    height: 19.4rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .content--left {
+    grid-template-columns: 1fr;
+  }
+
+  .content--right {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    row-gap: 10rem;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-img-hover {
+    width: 100%;
+  }
+
+  .rankem-hover {
+    padding-bottom: 47%;
+  }
+
+  .schedtool-hover {
+    padding-bottom: 46%;
+  }
+
+  .textbook-hover {
+    padding-bottom: 50.5%;
+  }
+
+  .pixelgram-hover {
+    padding-bottom: 51.5%;
+  }
+
+  .bus-hover {
+    padding-bottom: 64.3%;
+  }
+
+  .rankem-img {
+    margin-top: 2rem;
+  }
+
+  .rankem-hover {
+    margin-top: 2rem;
+  }
+
+  .textbook-img {
+    margin-bottom: 2rem;
+  }
+
+  .textbook-hover {
+    margin-bottom: 2rem;
+  }
+
+  .pixelgram-img {
+    margin-top: 2rem;
+  }
+
+  .pixelgram-hover {
+    margin-top: 2rem;
+  }
+
+  .schedtool-img {
+    margin-bottom: 2rem;
+  }
+
+  .schedtool-hover {
+    margin-bottom: 2rem;
+  }
+
+  .bus-img {
+    margin-top: 2rem;
+  }
+
+  .bus-hover {
+    margin-top: 2rem;
+  }
+
+  
+
+  .content--left .img-box {
+    transform: translate(0rem, 0rem);
+  }
+  
+  .content--right .img-box {
+    transform: translate(0rem, 0rem);
+  }
+
+  .project-content-wording {
+    padding: 4rem;
+  }
+
+  .projects-tert {
+    font-size: 3rem;
+  }
+
+  .project-content-wording p {
+    font-size: 1.8rem;
+  }
+
+  .project-technology {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .projects-tert {
+    font-size: 2.4rem;
+  }
+
+  .project-content-wording p {
+    font-size: 1.4rem;
+  }
+
+  .project-technology {
+    font-size: 1rem;
+  }
+
+  .project-content-wording {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .projects-tert {
+    font-size: 2rem;
+  }
+
+  .project-content-wording p {
+    font-size: 1.2rem;
+  }
+
+  .project-technology {
+    font-size: 75%;
+  }
+
+  .project-content-wording {
+    padding: 2rem;
+  }
+
+  .project-technology {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .project-img-hover {
+    height: 0rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .projects-tert {
+    font-size: 1.8rem;
+  }
+
+  .project-content-wording p {
+    font-size: 1rem;
+  }
+
+  .project-technology {
+    font-size: 65%;
+  }
+
+  .project-content-wording {
+    padding: 2rem;
+  }
+
+  .project-technology {
+    padding: 0.125rem 0.25rem;
+  }
+
+  .projects-grid {
+    row-gap: 7.2rem;
+  }
+}

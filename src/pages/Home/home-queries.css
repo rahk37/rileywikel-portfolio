@@ -1,0 +1,313 @@
+@media (max-width: 100em) {
+  .home-container {
+    padding: 20rem 20rem 10rem 20rem;
+  }
+
+  .home-planet {
+    width: 158.3rem;
+    top: -144rem;
+  }
+
+  .home-planet-glow {
+    width: 166.7rem;
+  }
+
+  .home-meteor {
+    top: 12rem;
+    right: 18rem;
+    height: 16rem;
+  }
+
+  .home-astro {
+    height: 3.4rem;
+    left: 25rem;
+    top: 55rem;
+  }
+
+  .home-satellite {
+    left: 25rem;
+    top: 40rem;
+    height: 9.4rem;
+  }
+}
+
+@media (max-width: 90em) {
+  .home-container {
+    padding: 30rem 8rem 8rem 8rem;
+  }
+
+  .home-planet {
+    width: 142.5rem;
+    top: -128rem;
+  }
+
+  .home-planet-glow {
+    width: 150rem;
+  }
+}
+
+@media (max-width: 80em) {
+  .home-name-container h1 {
+    font-size: 6.4rem;
+  }
+
+  .home-name-container h2 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 2.4rem;
+  }
+
+  .home-planet {
+    width: 126.7rem;
+    top: -111rem;
+  }
+
+  .home-planet-glow {
+    width: 133.3rem;
+  }
+
+  .home-meteor {
+    top: 12rem;
+    right: 18rem;
+    height: 16rem;
+  }
+
+  .home-astro {
+    height: 2.8rem;
+    left: 20rem;
+    top: 62rem;
+  }
+
+  .home-satellite {
+    left: 20rem;
+    top: 52rem;
+    height: 8rem;
+  }
+}
+
+@media (max-width: 70em) {
+  .home-planet {
+    width: 110.83rem;
+    top: -95rem;
+  }
+
+  .home-planet-glow {
+    width: 116.67rem;
+    top: -188rem;
+  }
+
+  .home-astro {
+    left: 15rem;
+  }
+
+  .home-satellite {
+    left: 15rem;
+  }
+}
+
+@media (max-width: 66em) {
+  .home-planet {
+    width: 95rem;
+    top: -80rem;
+    margin-left: 10rem;
+  }
+
+  .home-planet-glow {
+    width: 100rem;
+    margin-left: 10rem;
+  }
+
+  .home-container {
+    padding: 40rem 4rem 8rem 4rem;
+  }
+
+  .home-astro {
+    top: 72rem;
+  }
+
+  .home-satellite {
+    top: 62rem;
+  }
+
+  .home-meteor {
+    top: 15rem;
+  }
+}
+
+@media (max-width: 57em) {
+  .home-planet {
+    width: 79.16rem;
+    top: -63rem;
+  }
+
+  .home-planet-glow {
+    width: 83.3rem;
+  }
+
+  .home-astro {
+    top: 30rem;
+    left: 12rem;
+  }
+
+  .home-satellite {
+    top: 20rem;
+    left: 18rem;
+  }
+
+  .home-meteor {
+    right: 10rem;
+  }
+
+  .home-content {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 50em) {
+  .home-planet {
+    width: 71.25rem;
+    top: -56rem;
+    margin-left: 5rem;
+  }
+
+  .home-planet-glow {
+    width: 75rem;
+    margin-left: 6rem;
+  }
+
+  .home-astro {
+    top: 30rem;
+    left: 12rem;
+  }
+
+  .home-satellite {
+    top: 20rem;
+    left: 18rem;
+  }
+
+  .home-container {
+    padding: 40rem 2rem 8rem 2rem;
+  }
+
+  .home-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 39em) {
+  .home-name-container h1 {
+    font-size: 6rem;
+  }
+
+  .home-name-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .home-content p {
+    font-size: 2rem;
+  }
+
+  .home-planet {
+    width: 55.4rem;
+    top: -40rem;
+    margin-left: 6rem;
+  }
+
+  .home-planet-glow {
+    width: 58.3rem;
+  }
+
+  .home-satellite {
+    left: 15rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .home-planet {
+    width: 47.5rem;
+    top: -33rem;
+  }
+
+  .home-planet-glow {
+    width: 50rem;
+  }
+
+  .home-satellite {
+    left: 10rem;
+    height: 3rem;
+  }
+
+  .home-astro {
+    left: 8rem;
+    height: 2rem;
+  }
+
+  .home-meteor {
+    height: 10rem;
+    right: 5rem;
+  }
+
+  .home-name-container h1 {
+    font-size: 4.8rem;
+    word-spacing: 1rem;
+  }
+
+  .home-name-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .home-content p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .home-planet {
+    width: 39.58rem;
+    top: -25rem;
+  }
+
+  .home-planet-glow {
+    width: 41.67rem;
+  }
+
+  .home-astro {
+    left: 5rem;
+  }
+
+  .home-satellite {
+    left: 7rem;
+  }
+
+  .home-meteor {
+    right: 3rem;
+  }
+
+  .home-name-container h1 {
+    font-size: 4rem;
+  }
+
+  .home-name-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .home-content p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 22em) {
+  .home-name-container h1 {
+    font-size: 4.8rem;
+  }
+
+  .home-name-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .home-content p {
+    font-size: 1.2rem;
+  }
+}
