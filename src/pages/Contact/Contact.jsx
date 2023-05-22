@@ -42,7 +42,13 @@ export default function Contact() {
                 <span> </span>I am excited to hear from you!
               </p>
 
-              <form className="contact-form" name="contact" method="POST" data-netlify="true">
+              <form
+                className="contact-form"
+                name="contact"
+                action="/contact"
+                method="post"
+              >
+                <input type="hidden" name="form-name" value="contact" />
                 <div>
                   <label htmlFor="full-name">Full Name</label>
                   <input
@@ -69,7 +75,6 @@ export default function Contact() {
                   <label htmlFor="message">Message</label>
                   <textarea
                     name="message"
-                    type="text"
                     id="message"
                     cols="40"
                     rows="2"
@@ -77,7 +82,9 @@ export default function Contact() {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="btn btn--contact">Send message</button>
+                <button type="submit" className="btn btn--contact">
+                  Send message
+                </button>
               </form>
             </div>
 
