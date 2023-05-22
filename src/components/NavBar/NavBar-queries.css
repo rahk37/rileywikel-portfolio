@@ -60,3 +60,19 @@
     transform: translateY(9rem);
   }
 }
+
+@media (max-width: 30em) {
+  .nav-mobile--icon {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+
+  .btn-mobile-nav {
+    top: 2.5rem;
+    right: 3rem;
+  }
+
+  .nav-logo {
+    transform: translateY(9rem);
+  }
+}

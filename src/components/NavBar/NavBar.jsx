@@ -23,7 +23,7 @@ export default function NavBar() {
     <>
       <div className="nav-container">
         <a className="nav-logo" href="#home">
-          <MyLogo />
+          <MyLogo className="logo-svg" />
         </a>
         <nav className={navBtnClicked ? "nav-main" : "mobile-nav-clicked"}>
           <ul className="nav-main-list">

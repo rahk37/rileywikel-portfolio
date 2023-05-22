@@ -24,6 +24,9 @@
   .contact-text {
     font-size: 1.6rem;
   }
+  .contact-img {
+    height: 20rem;
+  }
 
   .contact-form input,
   .contact-form textarea {

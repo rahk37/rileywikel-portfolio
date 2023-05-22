@@ -76,6 +76,11 @@
   color: #181918;
 }
 
+.logo-svg {
+  height: 5rem;
+  width: 5rem;
+}
+
 
 /* MOBILE NAV */
 .btn-mobile-nav {
