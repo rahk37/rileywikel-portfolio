@@ -45,7 +45,7 @@ export default function Contact() {
               <form
                 className="contact-form"
                 name="contact"
-                action="/contact"
+                action="/"
                 method="post"
               >
                 <input type="hidden" name="form-name" value="contact" />
