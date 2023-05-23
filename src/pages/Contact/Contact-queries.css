@@ -2,11 +2,19 @@
   .contact-form {
     grid-template-columns: 1fr;
   }
+
+  .contact-text {
+    margin-bottom: 3.2rem;
+  }
 }
 
 @media (max-width: 55em) {
   .contact {
     grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    row-gap: 2rem;
   }
 
   .contact-text-box {
@@ -24,8 +32,13 @@
   .contact-text {
     font-size: 1.6rem;
   }
+
   .contact-img {
     height: 20rem;
+  }
+
+  .contact-form {
+    row-gap: 1.8rem;
   }
 
   .contact-form input,
@@ -50,6 +63,19 @@
   .contact-text-box {
     padding: 2rem;
   }
+
+  .header-secondary-contact {
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    row-gap: 1rem;
+  }
+
+  .contact-img {
+    height: 15rem;
+  }
+
   .contact-text {
     font-size: 1.4rem;
   }

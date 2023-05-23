@@ -39,18 +39,9 @@ export default function Home() {
           data-aos="fade-down-left"
         />
 
-        <img
-          className="home-planet"
-          src={require("../../imgs/backgrounds/home/planet.png")}
-          alt="Mystical planet"
-          data-aos="zoom-in-up"
-        />
-
-        <div className="home-planet-glow" data-aos="zoom-in-up"></div>
-
         <div className="home-img-container" data-aos="fade-up">
           <img
-            src={require("../../imgs/cartoon1.jpg")}
+            src={require("../../imgs/Riley.png")}
             alt="Riley Wikel, Software Developer and User Interface 
             | User Experience Designer"
           />

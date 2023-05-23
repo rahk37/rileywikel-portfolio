@@ -25,7 +25,7 @@
   }
 
   .about-content-text {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -39,7 +39,7 @@
   }
 
   .about-content-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .about-img {
@@ -58,15 +58,15 @@
   }
 
   .about-tert {
-    font-size: 3.6rem;
+    font-size: 4rem;
   }
 
   .about-content-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .text-box {
-    padding: 5rem;
+    padding: 3.6rem;
   }
 
   .about-img {
@@ -101,8 +101,12 @@
     height: 40rem;
   }
 
-  .text-box {
-    padding: 4rem;
+  .about-tert {
+    font-size: 3.6rem;
+  }
+
+  .about-content-text {
+    font-size: 1.8rem;
   }
 }
 
@@ -136,15 +140,6 @@
 }
 
 @media (max-width: 30em) {
-  .about-img {
-    width: 25rem;
-  }
-
-  .about-img-hover {
-    width: 25rem;
-    height: 25rem;
-  }
-
   .text-box {
     padding: 3.1rem;
   }
@@ -155,10 +150,6 @@
 
   .about-tert {
     font-size: 2.4rem;
-  }
-
-  .about-content-text {
-    font-size: 1.1rem;
   }
 }
 
@@ -182,12 +173,8 @@
     font-size: 5rem;
   }
 
-  .about-tert {
-    font-size: 2rem;
-  }
-
   .about-content-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .about-grid {
@@ -211,14 +198,6 @@
 
   .about-icon {
     font-size: 5rem;
-  }
-
-  .about-tert {
-    font-size: 2rem;
-  }
-
-  .about-content-text {
-    font-size: 1rem;
   }
 
   .about-grid {

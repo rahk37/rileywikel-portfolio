@@ -36,6 +36,7 @@
   left: 0;
   filter: grayscale(0.5) blur(0.5rem) opacity(0.5) brightness(0.5);
   width: 190rem;
+  overflow: hidden;
   z-index: 1;
 }
 
@@ -49,5 +50,6 @@
   top: -190rem;
   left: 0;
   filter: blur(10rem);
+  overflow: hidden;
   background-color: #f1faee;
 }

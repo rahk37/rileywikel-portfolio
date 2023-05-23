@@ -21,7 +21,7 @@ export default function Contact() {
         <div className="container" data-aos="flip-up">
           <div className="contact">
             <div className="contact-text-box">
-              <h2 className="header-secondary">Get in touch!</h2>
+              <h2 className="header-secondary header-secondary-contact">Get in touch!</h2>
               <p className="contact-text">
                 Based in{" "}
                 <a
