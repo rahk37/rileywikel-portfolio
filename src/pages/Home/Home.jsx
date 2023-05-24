@@ -41,7 +41,7 @@ export default function Home() {
 
         <div className="home-img-container" data-aos="fade-up">
           <img
-            src={require("../../imgs/Riley2.jpg")}
+            src={require("../../imgs/Riley.jpg")}
             alt="Riley Wikel, Software Developer and User Interface 
             | User Experience Designer"
           />

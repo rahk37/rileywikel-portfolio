@@ -46,7 +46,7 @@
 .home-img-container img {
   height: 14rem;
   border-radius: 50%;
-  filter: grayscale(0.9) brightness(0.6);
+  filter: grayscale(0.8) brightness(0.55);
 }
 
 .home-content {
