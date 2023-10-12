@@ -48,7 +48,7 @@
   background-color: transparent;
 }
 
-.project-img {
+/* .project-img {
   position: absolute;
   width: 100%;
   border-radius: 1.5rem;
@@ -57,7 +57,7 @@
   align-items: center;
 
   transition: 1.5s all;
-}
+} */
 
 .img-img-hovered {
   filter: grayscale(0);

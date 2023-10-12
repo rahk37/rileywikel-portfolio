@@ -3,6 +3,7 @@ import "./Projects.css";
 import "./Projects-queries.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 export default function Projects() {
   const [showRankEmImg, setRankEmImg] = useState(false);
@@ -28,148 +29,78 @@ export default function Projects() {
           ></div>
         </div>
 
-        <div className="projects-grid container grid grid--1-cols">
-          <div className="projects-content content--left" data-aos="fade-up">
-            <div className="project-content-wording">
-              <h3 className="header-tert projects-tert">Rank Em</h3>
+        <div className="projects-grid container grid grid--2-cols">
+          <ProjectCard
+            projectImgSrc={require("../../imgs/projects/RankEm.png")}
+            projectImgAlt={
+              "Rank Em web application developed by Riley Wikel. Software Engineer and User Experience / User Interface Designer"
+            }
+            projectTitle={"Rank Em"}
+            // technologies={["angular", "bootstrap", "aws", "node", "sass"]}
+            projectDescription={[
+              "RankEm is a web app for ",
+              <a
+                href="https://en.wikipedia.org/wiki/Fantasy_sport"
+                className="content-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>fantasy sports</strong>
+              </a>,
+              " leagues that allows users to rank players in ",
+              <a
+                href="https://www.nfl.com/"
+                target="_blank"
+                className="content-link"
+                rel="noreferrer"
+              >
+                {" "}
+                <strong>NFL</strong>{" "}
+              </a>,
+              ", ",
+              <a
+                href="https://www.mlb.com/"
+                className="content-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>MLB</strong>
+              </a>,
+              ", ",
+              <a
+                href="https://www.nba.com/"
+                className="content-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>NBA</strong>
+              </a>,
+              ", and ",
+              <a
+                href="https://www.nhl.com/"
+                className="content-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>NHL</strong>
+              </a>,
+              " using an API. Rankings can be saved to the user's account and exported. Home page displays top 20 rankings from the previous year for each sport.",
+            ]}
+          />
 
-              <div className="project-technologies-container">
-                <div className="project-technology angular">Angular</div>
-                <div className="project-technology bootstrap">Bootstrap</div>
-                <div className="project-technology aws">AWS</div>
-                <div className="project-technology node">Node</div>
-                <div className="project-technology sass">Sass</div>
-              </div>
+          <ProjectCard
+            projectImgSrc={require("../../imgs/projects/textbookconnection.PNG")}
+            projectImgAlt={
+              "Textbook Connection web application developed by Riley Wikel for Milwaukee School of Engineering. Software Engineer and User Experience / User Interface Designer"
+            }
+            projectTitle={"Textbook Connection"}
+            projectDescription={[
+              "Textbook Connection is a full-stack web app for Milwaukee School of Engineering students to borrow textbooks from the library. Students can browse, select and request textbooks and library staff are notified via email to approve or deny requests.",
+            ]}
+          />
 
-              <p>
-                RankEm is a web app for{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Fantasy_sport"
-                  className="content-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <strong>fantasy sports</strong>
-                </a>{" "}
-                leagues that allows users to rank players in{" "}
-                <a
-                  href="https://www.nfl.com/"
-                  target="_blank"
-                  className="content-link"
-                  rel="noreferrer"
-                >
-                  <strong>NFL</strong>
-                </a>
-                ,{" "}
-                <a
-                  href="https://www.mlb.com/"
-                  className="content-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <strong>MLB</strong>
-                </a>
-                ,{" "}
-                <a
-                  href="https://www.nba.com/"
-                  className="content-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <strong>NBA</strong>
-                </a>
-                , and{" "}
-                <a
-                  href="https://www.nhl.com/"
-                  className="content-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <strong>NHL</strong>
-                </a>{" "}
-                using an API. Rankings can be saved to the user's account and
-                exported. Home page displays top 20 rankings from the previous
-                year for each sport.
-              </p>
-            </div>
-
-            <div className="img-box">
-              {showRankEmImg ? (
-                <>
-                  <div
-                    className="project-img-hover img-hovered rankem-hover"
-                    onMouseEnter={() => {
-                      setRankEmImg(true);
-                    }}
-                    onMouseLeave={() => {
-                      setRankEmImg(false);
-                    }}
-                  ></div>
-                  <img
-                    className="project-img img-hovered img-img-hovered rankem-img"
-                    src={require("../../imgs/projects/RankEm.png")}
-                    alt=""
-                  />
-                </>
-              ) : (
-                <>
-                  <div
-                    className="project-img-hover rankem-hover"
-                    onMouseEnter={() => {
-                      setRankEmImg(true);
-                    }}
-                    onMouseLeave={() => {
-                      setRankEmImg(false);
-                    }}
-                  ></div>
-                  <img
-                    className="project-img rankem-img"
-                    src={require("../../imgs/projects/RankEm.png")}
-                    alt=""
-                  />
-                </>
-              )}
-            </div>
-          </div>
-
-          <div className="projects-content content--right" data-aos="fade-up">
-            <div className="img-box">
-              {showTextBookImg ? (
-                <>
-                  <div
-                    className="project-img-hover img-hovered textbook-hover"
-                    onMouseEnter={() => {
-                      setTextBookImg(true);
-                    }}
-                    onMouseLeave={() => {
-                      setTextBookImg(false);
-                    }}
-                  ></div>
-                  <img
-                    className="project-img img-hovered img-img-hovered textbook-img"
-                    src={require("../../imgs/projects/textbookconnection.PNG")}
-                    alt=""
-                  />
-                </>
-              ) : (
-                <>
-                  <div
-                    className="project-img-hover textbook-hover"
-                    onMouseEnter={() => {
-                      setTextBookImg(true);
-                    }}
-                    onMouseLeave={() => {
-                      setTextBookImg(false);
-                    }}
-                  ></div>
-                  <img
-                    className="project-img textbook-img"
-                    src={require("../../imgs/projects/textbookconnection.PNG")}
-                    alt=""
-                  />
-                </>
-              )}
-            </div>
+          {/* <div className="projects-content content--left" data-aos="fade-up">
+            
 
             <div className="project-content-wording">
               <h3 className="header-tert projects-tert">Textbook Connection</h3>
@@ -437,7 +368,7 @@ export default function Projects() {
                 </>
               )}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

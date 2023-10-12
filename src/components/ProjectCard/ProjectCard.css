@@ -1,0 +1,110 @@
+.card-container {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.card-container:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.5);
+}
+
+.project-img {
+  width: 100%;
+  filter: brightness(0.75);
+}
+
+.project-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.project-descrip {
+  color: #d9e1d6;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/* Project Technology Tags */
+.project-tags {
+  display: flex;
+  margin-bottom: 1.2rem;
+  gap: 1.2rem;
+  list-style: none;
+}
+
+.tag {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.react {
+  background-color: #149eca;
+}
+
+.python {
+  background-color: #1fce8a;
+}
+
+.flask {
+  background-color: #84d04e;
+}
+
+.bootstrap {
+  background-color: #7710f1;
+}
+
+.ms-azure {
+  background-color: #006bbe;
+}
+
+.asp {
+  background-color: #bc74d9;
+}
+
+.node {
+  background-color: #43853d;
+}
+
+.express {
+  background-color: #ead41c;
+}
+
+.material {
+  background-color: #3f51b5;
+}
+
+.angular {
+  background-color: #d2002f;
+}
+
+.spring-boot {
+  background-color: #6cb52d;
+}
+
+.java {
+  background-color: #f09116;
+}
+
+.javascript {
+  background-color: #e4d04b;
+}
+
+.html {
+  background-color: #d84924;
+}
+
+.css {
+  background-color: #2449d8;
+}
+
+.aws {
+  background-color: #f29100;
+}
+
+.sass {
+  background-color: #c36291;
+}
